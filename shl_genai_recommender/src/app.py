@@ -6,8 +6,8 @@ import pandas as pd
 # 1. Configuration
 # ------------------------------
 # Change this URL to your deployed API if hosted on Render, Railway, etc.
-API_BASE_URL = "http://127.0.0.1:8000"
-# API_BASE_URL = "https://shl-genai-api.onrender.com"
+# API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "https://shl-genai-api.onrender.com"
 
 
 st.set_page_config(page_title="SHL Assessment Recommendation", page_icon="🧠", layout="wide")
@@ -88,3 +88,4 @@ if submit:
 # ------------------------------
 st.markdown("---")
 st.caption("Built for SHL GenAI Internship Assignment • Powered by FastAPI + Streamlit")
+
